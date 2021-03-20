@@ -17,6 +17,3 @@ canvas1.create_window(200, 180, window=button1)
 InputLabel = tk.Label(root, text="", font=("Courier", 15), width=42, height=5, borderwidth=2, relief="solid")
 
 root.mainloop()
-
-while True:
-    print(entry1.cget("text"))
